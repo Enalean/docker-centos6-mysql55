@@ -13,9 +13,7 @@ VOLUME /var/lib/mysql
 
 ADD my.cnf /opt/rh/mysql55/root/etc/my.cnf
 ADD docker-entrypoint.sh /entrypoint.sh
-#ENTRYPOINT ["/entrypoint.sh"]
 
 EXPOSE 3306
-#CMD ["scl", "enable", "mysql55", "mysqld_safe --datadir=/var/lib/mysql --user=mysql"]
 
 CMD ["/entrypoint.sh"]
