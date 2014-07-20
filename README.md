@@ -22,3 +22,8 @@ Why the hell a new container for mysql?
 
 Because we want an environment that match as much as possible what we will
 deploy at client side (a RHEL6 and a mysql55 from SCL).
+
+Credits
+=======
+
+Strongly inspired from https://github.com/docker-library/docker-mysql
